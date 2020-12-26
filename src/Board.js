@@ -65,7 +65,7 @@ function Board({ rowLength }) {
   return (
     <>
       <ul style={style} className="Board">
-        {/* For every ID in the tiles-array, print a Tile with the starter index and the tile ID */}
+        {/* For every ID in the tiles-array, print a Tile with the starter index and the tile ID (tile) */}
         { tiles.map((tile, index) => (
           <Tile
             key={tile}
